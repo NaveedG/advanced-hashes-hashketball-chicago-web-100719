@@ -254,6 +254,7 @@ def player_with_longest_name
     team_data[:players].each do |player_hash|
       player_hash.each do |player_name, player_data|
         player_names << player_name
+        return player_names.max_by { |name| name.length }
       end
     end
   end
