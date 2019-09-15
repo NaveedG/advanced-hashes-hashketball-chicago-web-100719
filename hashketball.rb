@@ -161,7 +161,7 @@ def player_numbers(team_name)
   else
     return nil
   end
-  
+
   player_numbers
 end
 
