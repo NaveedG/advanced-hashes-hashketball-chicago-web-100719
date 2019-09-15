@@ -277,7 +277,7 @@ def long_name_steals_a_ton?
     team_data[:players].each do |player_hash|
       player_hash.each do |player_name, player_data|
         all_steals << player_data[:steals]
-        most_steals = player_name if all_steals.max
+        most_steals = all_steals.max
       end
     end
   end
