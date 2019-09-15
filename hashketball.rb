@@ -180,10 +180,11 @@ def player_stats(name)
 end
 
 def big_shoe_rebounds
+  shoe_sizes = []
   game_hash.each do |location, team_data|
     team_data[:players].each do |player_hash|
       player_hash.each do |player_name, player_data|
-        big_foot = player_data[:shoe].max
+        shoe_sizes << player_data[:shoe]
       end
     end
   end
