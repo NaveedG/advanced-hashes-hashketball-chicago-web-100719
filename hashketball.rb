@@ -143,5 +143,7 @@ def team_names
   team_names << game_hash[:away][:team_name]
 end
 
-def player_numbers
+def player_numbers(team_name)
+  player_numbers = []
+  
 end
