@@ -213,4 +213,5 @@ def most_points_scored
         most_points_scored = all_points.max
       end
     end
+  end
 end
