@@ -151,6 +151,14 @@ def player_numbers(team_name)
         player_numbers << player_data[:number]
       end
     end
+  elsif game_hash[:away][:team_name] == team_name
+    game_hash[:away][:platers].each do |player_hash|
+      player_hash.each do |player_name, player_data|
+        player_numbers << player_data[:number]
+      end
+    end
+  else
+    return nil
   end
   player_numbers
 end
