@@ -154,4 +154,5 @@ def player_numbers(team_name)
       end
     end
   end
+  player_numbers
 end
