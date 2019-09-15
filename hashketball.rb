@@ -187,4 +187,7 @@ def big_shoe_rebounds
       end
     end
   end
+  puts big_foot
 end
+
+big_shoe_rebounds
