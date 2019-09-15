@@ -142,3 +142,6 @@ def team_names
   team_names << game_hash[:home][:team_name]
   team_names << game_hash[:away][:team_name]
 end
+
+def player_numbers
+end
