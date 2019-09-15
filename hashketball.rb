@@ -145,5 +145,4 @@ end
 
 def player_numbers(team_name)
   player_numbers = []
-  
 end
