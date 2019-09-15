@@ -167,5 +167,8 @@ end
 
 def player_stats(name)
   player_stats = {}
+  game_hash.each do |location, team_data|
+    team_data.each do |player_name, player_data|
+      player_data.each do |
   player_stats
 end
