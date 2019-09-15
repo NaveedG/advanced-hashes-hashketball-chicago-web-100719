@@ -139,8 +139,6 @@ end
 
 def team_names
   team_names = []
-  home_team = game_hash[:home][:team_name]
-  away_team = game_hash[:away][:team_name]
-  team_names << home_team
-  team_names << away_team
+  team_names << game_hash[:home][:team_name]
+  team_names << game_hash[:away][:team_name]
 end
