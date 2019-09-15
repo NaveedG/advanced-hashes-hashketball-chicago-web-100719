@@ -184,4 +184,7 @@ def big_shoe_rebounds
     team_data[:players].each do |player_hash|
       player_hash.each do |player_name, player_data|
         big_foot = player_data[:shoe].max
+      end
+    end
+  end
 end
